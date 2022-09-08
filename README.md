@@ -2,31 +2,38 @@
 
 ## Learning Goals
 
-- Learning Goal 1
-- Learning Goal 2
+- Revisit Design Patterns.
+- Explain Creational and Structural Patterns.
 
 ## Introduction
 
-A 1-2 sentence summary of what will be covered.
+In the last module, we introduced the topic of design patterns. As a refresher,
+design patterns provide specific solutions for specific problems. We learned
+about the singleton design pattern and how it is a creational design pattern
+that ensures only one instance of the class exists within a system to provide a
+global access point. Let us now delve into some more design patterns now that
+we have learned a little more about Java!
 
-## Topic 1
+## Creational Design Patterns
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+**Creational patterns** are patterns that aim to abstract how objects are
+created to allow clients to use different implementations of interfaces without
+having to be aware of each specific implementation. These type of patterns that
+focus on the way objects are created will reduce complexities and increase
+flexibility.
 
-## Topic 2
+We have already seen one creational design pattern, and that is the use of the
+singleton design pattern we learned about in the last module. In this module,
+we will cover one more creational design pattern before learning more about
+some structural patterns.
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+## Structural Design Patterns
 
-## Conclusion
+**Structural patterns** are patterns that help deal with the complexity that
+comes with large systems. These patterns provide us different ways to combine
+multiple classes together to implement functionality that takes advantage of
+each class without binding us to a tightly coupled relationship between those
+classes.
 
-A short one or two paragraph summary of the contents of the lessons, recapping
-the learning goals.
-
-## Resources
-
-- [Resource Link 1](example.com)
-- [Resource Link 2](example.com)
+In short, structural design patterns help us build objects and classes into
+larger structures without losing efficiency or flexibility.
