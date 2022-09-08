@@ -22,6 +22,9 @@ having to be aware of each specific implementation. These type of patterns that
 focus on the way objects are created will reduce complexities and increase
 flexibility.
 
+We should also note that when we use the term "client", we are referring to
+any entity that requests services from another entity.
+
 We have already seen one creational design pattern, and that is the use of the
 singleton design pattern we learned about in the last module. In this module,
 we will cover one more creational design pattern before learning more about
